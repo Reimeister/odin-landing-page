@@ -34,6 +34,12 @@ body {
 .signup {
     max-width: 100px;
 }
+
+.lineup {
+    display: flex;
+    justify-content: space-around;
+}
+
 ul {
     display: flex;
     list-style-type: none;
