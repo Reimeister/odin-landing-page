@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    margin: 48px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.signup-container {
+    display: flex;
+}
+
+.prompt {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    max-width: 100px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -11,7 +11,7 @@
   <div class="body"> <!-- main flex container -->
     <div class="header"> <!-- flex container for header logo/links -->
       <img src="./images/logo.png" alt="logo for company" width="150" height="150">
-      <div class="header-links">
+      <div class="header-links"> <!-- flex container to separate links from logo -->
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Register</a></li>
@@ -19,38 +19,41 @@
         </ul>
       </div>
     </div>
-    <div class="signup">
-      <h1>Monopoly Piece Restoration Company</h1>
-      <h2>We provide services to restore antique Monopoly pieces back to their original condition.</h2>
-      <button class="signup">Sign Up</button>
+    <div class="signup-container"> <!-- flex container for sign up prompt below header-->
+      <div class="prompt">
+        <h1>Monopoly Piece Restoration Company</h1>
+        <h2>We provide services to restore antique Monopoly pieces back to their original condition.</h2>
+        <button class="signup">Sign Up</button>
+      </div>
+      <img src="./images/signup.jpeg" class="promptimage" width="500px" height="auto">
     </div>
     <div class="lineup"> <!-- flex container for pic/info lineup -->
       <div class="info">
-        <img src="./images/car.webp" alt="car monopoly piece on board"> <!-- resize pictures to make them smaller proportionally -->
+        <img src="./images/car.webp" alt="car monopoly piece on board" width="300px" height="auto"> <!-- resize pictures to make them smaller proportionally -->
         <div class="text">This is one of our restored car Monopoly pieces.</div>
       </div>
       <div class="info">
-        <img src="./images/dog.webp" alt="dog monopoly piece on board"> <!-- give pictures rounded border -->
+        <img src="./images/dog.webp" alt="dog monopoly piece on board" width="300px" height="auto"> <!-- give pictures rounded border -->
         <div class="text">This is one of our restored Scottie dog Monopoly pieces.</div>
       </div>
       <div class="info">
-        <img src="./images/ship.webp" alt="ship monopoly piece on board">
+        <img src="./images/ship.webp" alt="ship monopoly piece on board" width="300px" height="auto">
         <div class="text">This is one of our restored battleship Monopoly pieces.</div>
       </div>
       <div class="info">
-        <img src="./images/horse.webp" alt="horse monopoly piece on board">
+        <img src="./images/horse.webp" alt="horse monopoly piece on board" width="300px" height="auto">
         <div class="text">This is one of our restored horse and rider Monopoly pieces.</div>
       </div>
       <div class="quote">
         <p class="main-quote"></p>
         <p class="source"></p>
       </div>
-    <div class="modal">
+    <div class="modal"> <!-- flex container for modal signup section above footer -->
       <p class="calltoaction">Sign up for our mailing list!</p>
       <p class="subcalltoaction">Keep up-to-date with all our availabilites, new services, and sales!</p>
       <button class="signup">Sign Up</button>
     </div>
-    <div class="footer">
+    <div class="footer"> <!-- flex container for footer -->
       <p class="copyright">Copyright The Odin Project/Reimeister</p>
     </div>
   </div>
