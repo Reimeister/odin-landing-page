@@ -62,7 +62,8 @@ body {
 .lineup {
     display: flex;
     justify-content: space-around;
-    padding: 100px
+    padding: 100px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -72,6 +73,10 @@ body {
     justify-content: center;
 }
 
+.infopic {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
 .quote {
     padding-left: 300px;
     padding-right: 300px;
@@ -101,7 +106,7 @@ body {
     align-items: center;
     background-color: #3882f6;
     border: 5px solid #3882f6;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .action {
