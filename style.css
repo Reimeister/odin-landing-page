@@ -26,6 +26,11 @@ body {
 
 .signup-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-color: #1f2937;
+    color: #F9FAF8;
 }
 
 .logotext {
@@ -45,7 +50,7 @@ body {
 .lineup {
     display: flex;
     justify-content: space-around;
-    
+    padding: 100px
 }
 
 .info {
@@ -53,6 +58,21 @@ body {
     max-width: 150px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.quote {
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.main-quote {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.source {
+    font-size: 20px;
+    text-align: right;
 }
 
 ul {
